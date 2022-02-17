@@ -255,6 +255,7 @@ Linux kernel 是規模相當大的開放原始碼軟體專案。 Linux kernel �
 
     ``` Bash
     # 合併分支(可能會產生conflict，需額外處理)
+    # 合併後，commit hash code會改變
     $ git rebase <branch name>
     # 進入改變commit內容的互動介面
     # hash code: 從現在追溯到特定commit
