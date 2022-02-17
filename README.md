@@ -88,6 +88,8 @@ Linux kernel 是規模相當大的開放原始碼軟體專案。 Linux kernel �
     ``` Bash
     # 複製網路上某個repository到本機上
     $ git clone <url>
+    # 複製特定分支
+    $ git clone -b <branch name> <url>
     ```
 
 * git pull
